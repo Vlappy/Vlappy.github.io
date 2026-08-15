@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Vlappy | El arte del buen sabor</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #fffaf7;
+      font-family: Arial, sans-serif;
+      color: #446a46;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 430px;
+      min-height: 100vh;
+      margin: auto;
+      padding: 30px 22px 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* LOGO */
+    .logo-area {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+
+    .logo-text {
+      font-family: cursive;
+      font-size: 64px;
+      color: #f91414;
+      line-height: 1;
+      font-style: italic;
+    }
+
+    .tagline {
+      margin-top: 5px;
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      color: #446a46;
+    }
+
+    /* PRESENTACIÓN */
+    .intro {
+      text-align: center;
+      margin: 12px 0 24px;
+    }
+
+    .intro h1 {
+      font-family: cursive;
+      font-size: 30px;
+      color: #f91414;
+      margin-bottom: 5px;
+    }
+
+    .intro p {
+      font-size: 15px;
+      color: #446a46;
+    }
+
+    /* BOTÓN PRINCIPAL */
+    .main-button {
+      width: 100%;
+      min-height: 62px;
+      background: #f91414;
+      color: white;
+      border-radius: 18px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 17px;
+      font-weight: bold;
+      letter-spacing: .5px;
+      box-shadow: 0 7px 18px rgba(249, 20, 20, .20);
+      transition: transform .2s;
+      margin-bottom: 20px;
+    }
+
+    .main-button:active {
+      transform: scale(.97);
+    }
+
+    .whatsapp-icon {
+      font-size: 25px;
+    }
+
+    /* REDES */
+    .social-title {
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 5px 0 13px;
+      color: #446a46;
+    }
+
+    .social-button {
+      width: 100%;
+      min-height: 55px;
+      background: white;
+      border: 2px solid #097b2c;
+      border-radius: 16px;
+      margin-bottom: 12px;
+      text-decoration: none;
+      color: #446a46;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+      gap: 14px;
+      font-weight: bold;
+      transition: background .2s, transform .2s;
+    }
+
+    .social-button:active {
+      transform: scale(.97);
+      background: #f3f8f3;
+    }
+
+    .social-icon {
+      width: 30px;
+      text-align: center;
+      font-size: 23px;
+    }
+
+    .social-info {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+
+    .social-name {
+      font-size: 16px;
+    }
+
+    .social-user {
+      font-size: 12px;
+      font-weight: normal;
+      opacity: .75;
+      margin-top: 2px;
+    }
+
+    /* DECORACIÓN */
+    .strawberries {
+      color: #f91414;
+      font-size: 21px;
+      letter-spacing: 5px;
+      margin: 10px 0 18px;
+    }
+
+    /* FOOTER */
+    footer {
+      margin-top: auto;
+      padding-top: 25px;
+      text-align: center;
+      font-size: 12px;
+      color: #446a46;
+      line-height: 1.6;
+    }
+
+    .footer-brand {
+      color: #f91414;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="logo-area">
+      <div class="logo-text">Vlappy</div>
+      <div class="tagline">EL ARTE DEL BUEN SABOR</div>
+    </div>
+
+    <div class="strawberries">🍓 🍓 🍓</div>
+
+    <section class="intro">
+      <h1>¡Se te antojó!</h1>
+      <p>Fresas con crema y mucho más 🍓</p>
+    </section>
+
+    <!-- WHATSAPP -->
+    <a
+      class="main-button"
+      href="https://wa.me/573043620702"
+      target="_blank"
+    >
+      <span class="whatsapp-icon">💬</span>
+      HAZ TU PEDIDO
+    </a>
+
+    <div class="social-title">
+      Síguenos y descubre más de Vlappy
+    </div>
+
+    <!-- INSTAGRAM -->
+    <a
+      class="social-button"
+      href="https://www.instagram.com/vlappybga/"
+      target="_blank"
+    >
+      <span class="social-icon">📸</span>
+
+      <span class="social-info">
+        <span class="social-name">Instagram</span>
+        <span class="social-user">@vlappybga</span>
+      </span>
+    </a>
+
+    <!-- TIKTOK -->
+    <a
+      class="social-button"
+      href="https://www.tiktok.com/@vlappybga"
+      target="_blank"
+    >
+      <span class="social-icon">♪</span>
+
+      <span class="social-info">
+        <span class="social-name">TikTok</span>
+        <span class="social-user">@vlappybga</span>
+      </span>
+    </a>
+
+    <footer>
+      <span class="footer-brand">Vlappy</span><br>
+      El arte del buen sabor 🍓
+    </footer>
+
+  </main>
+
+</body>
+</html>
