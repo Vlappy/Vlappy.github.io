@@ -21,12 +21,21 @@
         .pagina {
             width: 100%;
             max-width: 390px;
+            position: relative;
         }
 
         .pagina img {
             width: 100%;
             height: auto;
             display: block;
+        }
+        .boton-whatsapp {
+            position: absolute;
+            left: 5%;
+            top: 48%;
+            width: 75%;
+            height: 7%;
+            z-index: 10;
         }
     </style>
 </head>
@@ -35,6 +44,14 @@
 
     <div class="pagina">
         <img src="vlappy-inicio.png" alt="Vlappy - El arte del buen sabor">
+
+        <a
+         href="https://wa.me/573043620702"
+         class="boton-whatsapp"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="WhatsApp">
+        </a>
     </div>
 
 </body>
